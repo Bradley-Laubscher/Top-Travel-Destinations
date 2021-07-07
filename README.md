@@ -1,5 +1,5 @@
 # Top-Travel-Destinations
-This is a website which informs you of great places to go traveling
+This is a website which informs you of great places to go traveling.
 
 This website was created as a side project in attempt to solidify what I had just learned about html and CSS in an online course.
 I have not invested as much time and effort into it as it deserves. However, it may be something I revisit in the future in order to refine it some more.
