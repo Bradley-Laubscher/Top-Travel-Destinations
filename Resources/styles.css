@@ -114,8 +114,11 @@ nav ul a:hover {
     text-align: center;
     font-size: 30px;
     position: relative;
+    margin: 0 auto;
+    width: 60%;
     top: 100px;
     font-family: 'Permanent Marker', Cursive;
+    background-color: rgba(0, 0, 0, 0.514)
 }
 
 .tips ul {
@@ -127,7 +130,6 @@ nav ul a:hover {
 }
 
 .dnd-table {
-    border: 3px solid black;
     margin-left: 40px;
     display: grid;
     padding: 0;
@@ -136,14 +138,8 @@ nav ul a:hover {
     width: 800px;
 }
 
-#dos,
-#donts {
-    height: 40px;
-}
-
-table, th, td {
-    border: 2px solid rgb(10, 210, 236);
-    cursor: pointer;
+table, td {
+    border: 1px solid;
 }
 
 th {
