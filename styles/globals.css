@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', Cursive, sans-serif;
+}
+
+body {
+    background: url("../resources/pexels-simon-migaj-747964.jpg") no-repeat center center fixed; 
+    font-size: 20px;
+}
+
+.page-heading {
+    font-size: 40px;
+    margin: 20px 40px;
+    width: 520px; 
+    border-radius: 5px; 
+    padding-left: 10px; 
+    
+    text-decoration: underline white;
+}
+
+/* Banner Section */
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+}
+
+.header {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Permanent Marker', Cursive;
+    color:#F74E07;
+}
+
+.home-button {
+    color:rgb(255, 81, 1);
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.667);
+    text-decoration: underline;
+    font-family: 'Permanent Marker', Cursive;
+    border-radius: 15px;
+}
+
+.cost-button {
+    color:rgb(207, 18, 18);
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.667);
+    text-decoration: underline;
+    font-family: 'Permanent Marker', Cursive;
+    border-radius: 15px;
+}
+
+.dos-and-donts-button {
+    color:rgb(10, 210, 236);
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.667);
+    text-decoration: underline;
+    font-family: 'Permanent Marker', Cursive;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 50px;
+  
+}
+
+nav ul a:hover {
+    background: white;
+}
+
+/* main body */
+
+/* Home Page */
+
+.destinations {
+    color: rgb(255, 81, 1);
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 5%;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.gallery {
+    margin: 6px;
+    border: 1px solid black;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+}
+
+.figcaption {
+    text-align: center;
+    color: rgb(255, 81, 1);
+    background: black;
+}
+
+/* Do's and Dont's Page */
+
+.tips {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    top: 100px;
+    
+    line-height: 2;
+}
+
+#tipsHeading {
+    color:rgb(7, 36, 40);
+    text-decoration: underline rgb(10, 210, 236);
+}
+
+.tips ul {
+    list-style-type: none;
+}
+
+.dnd-of-travel {
+    color: rgb(10, 210, 236);
+}
+
+.dnd-table {
+    margin: 0 auto;
+    padding: 5px;
+    color:rgb(7, 36, 40);
+    background-color: rgba(255, 255, 255, 0.268);
+    width: 60%;
+    line-height: 1.5;
+}
+
+.tableHeading {
+    margin: 0 auto;
+    text-decoration: underline rgb(10, 210, 236);
+    color:rgb(7, 36, 40);
+}
+
+.tableData1 {
+    width: 50%;
+}
+
+.tableData2 {
+    width: 50%;
+}
+
+/* Travel Costs Page */
+
+.costs {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 25px;
+    color:rgb(58, 4, 4);
+    width: 100%;
+}
+
+.initialCosts {
+    width: 30%;
+}
+
+.additionalCosts {
+    width: 30%;
+}
+
+.costs h4 {
+    color: rgb(207, 18, 18);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 40px;
+}
+
+.costs p,
+.costs ul { 
+    background-color: rgba(255, 255, 255, 0.268);
+    margin: 10px 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.costs ul {
+    padding-left: 40px;
+}
+
+.travel-costs {
+    color:rgb(207, 18, 18);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 30px;
+    }
+    .container {
+        height: 100px;
+    }
+
+    nav a {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .page-heading {
+        font-size: 25px;
+        margin: 5px;
+        width: 350px;
+    }
+    .gallery-container {
+        left: 1%;
+    }
+
+    .dnd-table {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .tips {
+        font-size: 15px;
+    }
+
+    .costs {
+        display: block;
+        font-size: 15px;
+    }
+
+    .initialCosts {
+        width: 80%;
+    }
+
+    .additionalCosts {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1368px) {
+    .header {
+        font-size: 40px
+    }
+    .container {
+        height: 100px;
+    }
+
+    .costs {
+        display: block;
+        font-size: 20px;
+    }
+
+    .initialCosts {
+        width: 80%;
+    }
+
+    .additionalCosts {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .gallery {
+        width: 350px;
+    }
+}
