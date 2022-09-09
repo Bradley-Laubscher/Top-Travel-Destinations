@@ -13,8 +13,7 @@ const nextConfig = {
       'p-airnz.com',
       'lh3.googleusercontent.com',
       'media.tacdn.com',
-      'specials-images.forbesimg.com',
-      'resources'      
+      'specials-images.forbesimg.com',     
     ]
   }
 }
