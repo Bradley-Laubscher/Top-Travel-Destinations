@@ -16,7 +16,6 @@ body {
     width: 520px; 
     border-radius: 5px; 
     padding-left: 10px; 
-    
     text-decoration: underline white;
 }
 
@@ -131,7 +130,6 @@ nav ul a:hover {
     margin: 0 auto;
     width: 60%;
     top: 100px;
-    
     line-height: 2;
 }
 
@@ -277,11 +275,5 @@ nav ul a:hover {
 
     .additionalCosts {
         width: 80%;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .gallery {
-        width: 350px;
     }
 }
