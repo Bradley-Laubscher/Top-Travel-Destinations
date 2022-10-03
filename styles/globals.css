@@ -41,7 +41,6 @@ body {
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
-    border: 2px solid black;
 }
 
 .cost-button {
@@ -51,7 +50,6 @@ body {
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
-    border: 2px solid black;
 }
 
 .dos-and-donts-button {
@@ -61,7 +59,6 @@ body {
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
-    border: 2px solid black;
 }
 
 nav ul {
@@ -138,7 +135,7 @@ nav ul a:hover {
 
 #tipsHeading {
     color:black;
-    text-decoration: underline rgb(10, 210, 236);
+    text-decoration: underline black;
 }
 
 .tips ul {
@@ -159,7 +156,6 @@ nav ul a:hover {
 
 .tableHeading {
     margin: 0 auto;
-    text-decoration: underline rgb(10, 210, 236);
     color:black;
 }
 
