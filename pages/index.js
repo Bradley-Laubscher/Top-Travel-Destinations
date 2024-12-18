@@ -31,7 +31,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Paris" target="blank">
               <Image 
-                src="https://www.thespiritsbusiness.com/content/http://www.thespiritsbusiness.com/media/2020/07/Paris.jpg" 
+                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg" 
                 alt="The Eiffel Tower"
                 width='300'
                 height='271'
