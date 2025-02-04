@@ -19,7 +19,7 @@ export default function Home() {
         <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/South_Island" target="blank">
               <Image
-               src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/3117192df163b1c655a6081e58961533bd8e1afe/medium-3dcab0806698d21029384a2602890a74.jpg" 
+               src="/resources/NZ.jpg" 
                alt="icy green mountains and clear lake" 
                width='300'
                height='271'
@@ -31,7 +31,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Paris" target="blank">
               <Image 
-                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg" 
+                src="/resources/Paris.jpg" 
                 alt="The Eiffel Tower"
                 width='300'
                 height='271'
@@ -43,7 +43,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Bora_Bora" target="blank">
               <Image 
-                src="https://www.traveldudes.com/wp-content/uploads/2020/09/beach-bora-bora-clouds-753626.jpg" 
+                src="/resources/Bora-Bora.jpg" 
                 alt="cozy huts on the ocean" 
                 width='300'
                 height='271'
@@ -55,7 +55,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)" target="blank">
               <Image 
-                src="https://www.tripsavvy.com/thmb/vg2Q9JbZCYCmfBkqLh_GCi4n7C0=/2700x1800/filters:fill(auto,1)/IMG_7115-e21fc727cf734a2fb38de800930605b3.jpg" 
+                src="/resources/GNP.jpg"
                 alt="beautiful mountains with a glacial lake bvelow" 
                 width='300'
                 height='271'
@@ -67,7 +67,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/London" target="blank">
               <Image 
-                src="https://lp-cms-production.imgix.net/2019-06/55425108.jpg" 
+                src="/resources/London.jpg"
                 alt="Big Ben" 
                 width='300'
                 height='271'
@@ -79,7 +79,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Maui" target="blank">
               <Image 
-                src="https://cdn.kiwicollection.com/media/property/PR010193/xl/010193-02-Hyatt-Regency-Maui-Japengo-from-Halona-Kai-Pink-Small.jpg?cb=1597093511" 
+                src="/resources/Maui.jpg"
                 alt="Palrm tree resort" 
                 width='300'
                 height='271'
@@ -91,7 +91,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Tahiti" target="blank">
               <Image 
-                src="https://p-airnz.com/cms/assets/Common-Assets/Destination-Images/pacific-islands-tahiti-huts-lagoon-fish-1200x800__ScaleMaxWidthWzczOF0.jpg" 
+                src="/resources/Tahiti.jpg"
                 alr="huts over the ocean" 
                 width='300'
                 height='271'
@@ -103,7 +103,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Tokyo" target="blank">
               <Image 
-                src="https://lh3.googleusercontent.com/7wFv_iLVUp7Y1S017TamjvsQJdCbVkDeTPwvLiNh3H7MO5yxror8FOQcu8b2tLd-dsy6EheyUbcd_1XQdToM=s750" 
+                src="/resources/Tokyo.jpg"
                 alt="Tokyo city at night"
                 width='300'
                 height='271'
@@ -115,7 +115,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Rome" target="blank">
               <Image 
-                src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/2c/70.jpg" 
+                src="/resources/Rome.jpg" 
                 alt="the Colloseum" 
                 width='300'
                 height='271'
@@ -127,7 +127,7 @@ export default function Home() {
           <fig className="gallery">
             <a href="https://en.wikipedia.org/wiki/Phuket_Province" target="blank">
               <Image 
-                src="https://specials-images.forbesimg.com/imageserve/1071599218/960x0.jpg?fit=scale" 
+                src="/resources/Phuket.jpg"
                 alt="Ocean Mountains"
                 width='300'
                 height='271'

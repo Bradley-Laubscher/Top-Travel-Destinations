@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("../resources/pexels-simon-migaj-747964.jpg") no-repeat center center fixed; 
+    background: url(/resources/pexels-simon-migaj-747964.jpg) no-repeat center center fixed; 
     font-size: 20px;
 }
 
@@ -15,8 +15,7 @@ body {
     margin: 20px 40px;
     width: 520px; 
     border-radius: 5px; 
-    padding-left: 10px; 
-    text-decoration: underline white;
+    padding-left: 10px;
 }
 
 /* Banner Section */
@@ -34,10 +33,13 @@ body {
     color:#F74E07;
 }
 
+.navBar {
+    background-color: rgba(240, 248, 255, 0.667);
+}
+
 .home-button {
     color:rgb(255, 81, 1);
     padding: 5px;
-    background-color: rgba(240, 248, 255, 0.667);
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
@@ -46,7 +48,6 @@ body {
 .cost-button {
     color:rgb(207, 18, 18);
     padding: 5px;
-    background-color: rgba(240, 248, 255, 0.667);
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
@@ -55,7 +56,6 @@ body {
 .dos-and-donts-button {
     color:rgb(10, 210, 236);
     padding: 5px;
-    background-color: rgba(240, 248, 255, 0.667);
     text-decoration: underline;
     font-family: 'Permanent Marker', Cursive;
     border-radius: 15px;
@@ -64,9 +64,10 @@ body {
 nav ul {
     list-style-type: none;
     text-align: center;
-    padding: 25px 0;
+    padding: 5px 0;
     width: 100%;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
 }
 
 nav a {
@@ -78,10 +79,6 @@ nav a {
 nav ul li {
     display: inline-block;
     margin: 0px 50px;
-}
-
-nav ul a:hover {
-    background: white;
 }
 
 /* main body */
