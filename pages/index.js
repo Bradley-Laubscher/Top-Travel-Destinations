@@ -17,7 +17,7 @@ export default function Home() {
         <h2 className="page-heading destinations">Top Travel Destinations</h2>
         <section className='gallery-container'>
         <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/South_Island" target="blank">
+            <a href="https://en.wikipedia.org/wiki/South_Island" target="_blank" rel="noopener noreferrer">
               <Image
                src="/resources/NZ.jpg" 
                alt="icy green mountains and clear lake" 
@@ -29,7 +29,7 @@ export default function Home() {
             <figcaption className="figcaption">South Islands, New Zealand</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Paris" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Paris" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Paris.jpg" 
                 alt="The Eiffel Tower"
@@ -41,7 +41,7 @@ export default function Home() {
             <figcaption className="figcaption">Paris</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Bora_Bora" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Bora_Bora" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Bora-Bora.jpg" 
                 alt="cozy huts on the ocean" 
@@ -53,7 +53,7 @@ export default function Home() {
             <figcaption className="figcaption">Bora Bora</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Glacier_National_Park_(U.S.)" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/GNP.jpg"
                 alt="beautiful mountains with a glacial lake bvelow" 
@@ -65,7 +65,7 @@ export default function Home() {
             <figcaption className="figcaption">Glacier National Park</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/London" target="blank">
+            <a href="https://en.wikipedia.org/wiki/London" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/London.jpg"
                 alt="Big Ben" 
@@ -77,7 +77,7 @@ export default function Home() {
             <figcaption className="figcaption">London</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Maui" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Maui" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Maui.jpg"
                 alt="Palrm tree resort" 
@@ -89,10 +89,10 @@ export default function Home() {
             <figcaption className="figcaption">Maui</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Tahiti" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Tahiti" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Tahiti.jpg"
-                alr="huts over the ocean" 
+                alt="huts over the ocean"
                 width='300'
                 height='271'
                 layout='responsive'
@@ -101,7 +101,7 @@ export default function Home() {
             <figcaption className="figcaption">Tahiti</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Tokyo" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Tokyo.jpg"
                 alt="Tokyo city at night"
@@ -113,7 +113,7 @@ export default function Home() {
             <figcaption className="figcaption">Tokyo</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Rome" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Rome" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Rome.jpg" 
                 alt="the Colloseum" 
@@ -125,7 +125,7 @@ export default function Home() {
             <figcaption className="figcaption">Rome</figcaption>
           </fig>
           <fig className="gallery">
-            <a href="https://en.wikipedia.org/wiki/Phuket_Province" target="blank">
+            <a href="https://en.wikipedia.org/wiki/Phuket_Province" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="/resources/Phuket.jpg"
                 alt="Ocean Mountains"

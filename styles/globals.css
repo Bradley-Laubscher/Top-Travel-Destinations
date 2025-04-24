@@ -1,3 +1,4 @@
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,280 +7,231 @@
 }
 
 body {
-    background: url(/resources/pexels-simon-migaj-747964.jpg) no-repeat center center fixed; 
-    font-size: 20px;
+    background: url(/resources/pexels-simon-migaj-747964.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
 }
 
-.page-heading {
-    font-size: 40px;
-    margin: 20px 40px;
-    width: 520px; 
-    border-radius: 5px; 
-    padding-left: 10px;
-}
-
-/* Banner Section */
-
-.container {
-    margin: 0 auto;
-    width: 100%;
-    height: 120px;
-}
-
+/* Header Styles */
 .header {
     text-align: center;
-    font-size: 70px;
+    background-color: rgba(240, 248, 255, 0.667);
+    font-size: 3rem;
     font-family: 'Permanent Marker', Cursive;
-    color:#F74E07;
+    color: #F74E07;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .navBar {
     background-color: rgba(240, 248, 255, 0.667);
-}
-
-.home-button {
-    color:rgb(255, 81, 1);
-    padding: 5px;
-    text-decoration: underline;
-    font-family: 'Permanent Marker', Cursive;
-    border-radius: 15px;
-}
-
-.cost-button {
-    color:rgb(207, 18, 18);
-    padding: 5px;
-    text-decoration: underline;
-    font-family: 'Permanent Marker', Cursive;
-    border-radius: 15px;
-}
-
-.dos-and-donts-button {
-    color:rgb(10, 210, 236);
-    padding: 5px;
-    text-decoration: underline;
-    font-family: 'Permanent Marker', Cursive;
-    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
-    padding: 5px 0;
-    width: 100%;
-    border-bottom: 3px solid rgb(0, 0, 0);
-    border-top: 3px solid rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }
 
 nav a {
-    font-size: 30px;
+    font-size: 1.25rem;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0px 50px;
+nav a:hover {
+    color: #F74E07;
 }
 
-/* main body */
-
-/* Home Page */
-
-.destinations {
-    color: rgb(255, 81, 1);
-}
-
-.gallery-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10% 0 5%;
-    flex-wrap: wrap;
+/* Main Content */
+.page-heading {
+    font-size: 2rem;
+    margin: 1rem auto;
     width: 90%;
+    text-align: center;
+    color: rgb(255, 81, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Gallery Section */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: 100px; /* horizontal space between items */
+  row-gap: 50px;     /* vertical space between rows */
+  margin: 0 5% 0 5%;
+  width: 90%;
 }
 
 .gallery {
-    margin: 6px;
-    border: 1px solid black;
-    float: left;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     width: 300px;
-    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .gallery img {
     width: 100%;
-    height: 90%;
-    overflow: scroll;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
 }
 
 .figcaption {
     text-align: center;
-    color: rgb(255, 81, 1);
-    background: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-/* Do's and Dont's Page */
-
-.tips {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    margin: 0 auto;
-    width: 60%;
-    top: 100px;
-    line-height: 2;
-}
-
-#tipsHeading {
-    color:black;
-    text-decoration: underline black;
-}
-
-.tips ul {
-    list-style-type: none;
-}
-
-.dnd-of-travel {
-    color: rgb(10, 210, 236);
-}
-
-.dnd-table {
-    margin: 0 auto;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.268);
-    width: 60%;
-    line-height: 1.5;
-}
-
-.tableHeading {
-    margin: 0 auto;
-    color:black;
-}
-
-.tableData1 {
-    width: 50%;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
-
-.tableData2 {
-    width: 50%;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
-
-/* Travel Costs Page */
-
-.costs {
-    display: flex;
-    justify-content: space-between;
-    text-align: justify;
-    font-size: 25px;
-    /* color:rgb(58, 4, 4); */
-    color: black;
-    width: 100%;
-}
-
-.initialCosts {
-    width: 30%;
-}
-
-.additionalCosts {
-    width: 30%;
-}
-
-.costs h4 {
-    color: rgb(207, 18, 18);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 0 40px;
-}
-
-.costs p,
-.costs ul { 
-    background-color: rgba(255, 255, 255, 0.268);
-    margin: 10px 40px;
-    border-radius: 5px;
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.costs ul {
-    padding-left: 40px;
-}
-
-.costs li {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-}
-
-.travel-costs {
-    color:rgb(207, 18, 18);
-}
-
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .header {
-        font-size: 30px;
-    }
-    .container {
-        height: 100px;
+        font-size: 2.5rem;
+        padding: 1.5rem 0;
     }
 
-    nav a {
-        font-size: 20px;
-        margin: 5px;
+    .navBar {
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1.5rem;
     }
 
     .page-heading {
-        font-size: 25px;
-        margin: 5px;
-        width: 350px;
+        font-size: 2rem;
     }
+
     .gallery-container {
-        left: 1%;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .dnd-table {
-        font-size: 15px;
+    .gallery {
         width: 90%;
-    }
-
-    .tips {
-        font-size: 15px;
-    }
-
-    .costs {
-        display: block;
-        font-size: 15px;
-    }
-
-    .initialCosts {
-        width: 80%;
-    }
-
-    .additionalCosts {
-        width: 80%;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1368px) {
-    .header {
-        font-size: 40px
-    }
-    .container {
-        height: 100px;
-    }
+/* ===== Do's and Don'ts Page ===== */
+.dnd-of-travel {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #F74E07;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
 
-    .costs {
-        display: block;
-        font-size: 20px;
-    }
+.dnd-table {
+    width: 90%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
-    .initialCosts {
-        width: 80%;
-    }
+.dnd-table th,
+.dnd-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
 
-    .additionalCosts {
-        width: 80%;
-    }
+.dnd-table th {
+    background-color: #F74E07;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.tips {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#tipsHeading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #F74E07;
+}
+
+.tips ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    line-height: 1.6;
+}
+
+/* ===== Travel Costs Page ===== */
+.travel-costs {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #F74E07;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.costs {
+    width: 90%;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.costs h4 {
+    margin-top: 2rem;
+    color: #F74E07;
+    font-size: 1.4rem;
+}
+
+.costs ul {
+    list-style: square;
+    padding-left: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Footer (Optional) */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #F74E07;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
 }
